@@ -1,0 +1,22 @@
+# Local raw footage and annotations
+/videos/
+/dataset/
+
+# Weights and local experiment outputs
+*.pt
+*.pth
+/runs/
+/results/*
+!/results/.gitkeep
+
+# Virtual environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environment files
+.env
+.DS_Store
+Thumbs.db
